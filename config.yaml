@@ -1,0 +1,6 @@
+path: C:/Users/Yoshiro/Desktop/insect_detection/data
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+names: ['no_insects', 'insects']
