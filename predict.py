@@ -11,7 +11,7 @@ model_path = os.path.join('.', 'runs', 'detect', 'train', 'weights', 'best.pt')
 threshold = 0.5
 
 class_name_dict = {1: 'insect'}
-directory = r'C:\Users\Yoshiro\Desktop\insect_detection\images'
+directory = r'./images/'
 
 model = YOLO(model_path)
 result = model(img_path)[0]
